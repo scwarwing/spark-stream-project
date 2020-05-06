@@ -6,6 +6,7 @@ Changing the parameter `processedRowsPerSecond` will affect the throughout and l
 
 
 **2. What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?**
+
 To find the most optimal variation we can test multiple variations and see which is providing the largest possible value for processedRowsPerSecond.
 
 To increase processedRowsPerSecond we can modify below parameters:
